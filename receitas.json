@@ -1,0 +1,317 @@
+{
+  "Fricassê de Frango": {
+    "Batata": [
+      0.83,
+      "Kg",
+      "Feira"
+    ],
+    "Ovo": [
+      2.04,
+      "Un",
+      "Frios"
+    ],
+    "Pó de café": [
+      2.42,
+      "Kg",
+      "Condimentos"
+    ],
+    "Tomate": [
+      0.22,
+      "Kg",
+      "Feira"
+    ],
+    "frango": [
+      2.0,
+      "Kg",
+      "Açougue"
+    ]
+  },
+  "Arroz de Forno": {
+    "Desinfetante": [
+      2.36,
+      "L",
+      "Limpeza"
+    ],
+    "Palha de aço": [
+      1.23,
+      "Un",
+      "Limpeza"
+    ],
+    "Pó de café": [
+      2.16,
+      "Kg",
+      "Condimentos"
+    ]
+  },
+  "Bolo de Cenoura": {
+    "Palha de aço": [
+      0.58,
+      "Un",
+      "Limpeza"
+    ],
+    "Peito de frango": [
+      0.31,
+      "Kg",
+      "Açougue"
+    ],
+    "Tomate": [
+      1.38,
+      "Kg",
+      "Feira"
+    ]
+  },
+  "Omelete Recheada": {
+    "Arroz": [
+      1.66,
+      "Kg",
+      "Feira"
+    ],
+    "Cebola": [
+      1.08,
+      "Kg",
+      "Feira"
+    ]
+  },
+  "Batata Recheada": {
+    "Alho": [
+      0.36,
+      "Kg",
+      "Feira"
+    ],
+    "Leite": [
+      0.23,
+      "L",
+      "Frios"
+    ],
+    "Palha de aço": [
+      0.68,
+      "Un",
+      "Limpeza"
+    ],
+    "Queijo mussarela": [
+      1.29,
+      "Kg",
+      "Frios"
+    ]
+  },
+  "Feijoada Light": {
+    "Alho": [
+      2.29,
+      "Kg",
+      "Feira"
+    ],
+    "Desinfetante": [
+      1.63,
+      "L",
+      "Limpeza"
+    ],
+    "Feijão": [
+      1.21,
+      "Kg",
+      "Feira"
+    ],
+    "Óleo de soja": [
+      1.54,
+      "L",
+      "Condimentos"
+    ]
+  },
+  "Macarrão ao Alho": {
+    "Arroz": [
+      2.3,
+      "Kg",
+      "Feira"
+    ],
+    "Leite": [
+      0.32,
+      "L",
+      "Frios"
+    ],
+    "Óleo de soja": [
+      0.36,
+      "L",
+      "Condimentos"
+    ]
+  },
+  "Estrogonofe": {
+    "Arroz": [
+      1.64,
+      "Kg",
+      "Feira"
+    ],
+    "Feijão": [
+      1.17,
+      "Kg",
+      "Feira"
+    ],
+    "Peito de frango": [
+      2.34,
+      "Kg",
+      "Açougue"
+    ],
+    "Pó de café": [
+      1.25,
+      "Kg",
+      "Condimentos"
+    ]
+  },
+  "Torta Salgada": {
+    "Açúcar": [
+      0.35,
+      "Kg",
+      "Condimentos"
+    ],
+    "Cebola": [
+      1.89,
+      "Kg",
+      "Feira"
+    ],
+    "Desinfetante": [
+      1.94,
+      "L",
+      "Limpeza"
+    ],
+    "Palha de aço": [
+      1.35,
+      "Un",
+      "Limpeza"
+    ]
+  },
+  "Sopa Cremosa": {
+    "Batata": [
+      1.1,
+      "Kg",
+      "Feira"
+    ],
+    "Leite": [
+      2.28,
+      "L",
+      "Frios"
+    ],
+    "Palha de aço": [
+      1.98,
+      "Un",
+      "Limpeza"
+    ],
+    "Peito de frango": [
+      2.36,
+      "Kg",
+      "Açougue"
+    ]
+  },
+  "Frango Grelhado": {
+    "Alho": [
+      2.09,
+      "Kg",
+      "Feira"
+    ],
+    "Desinfetante": [
+      1.09,
+      "L",
+      "Limpeza"
+    ],
+    "Feijão": [
+      1.93,
+      "Kg",
+      "Feira"
+    ],
+    "Ovo": [
+      1.57,
+      "Un",
+      "Frios"
+    ],
+    "Pó de café": [
+      1.17,
+      "Kg",
+      "Condimentos"
+    ],
+    "Queijo mussarela": [
+      1.56,
+      "Kg",
+      "Frios"
+    ]
+  },
+  "Kibe Assado": {
+    "Arroz": [
+      2.07,
+      "Kg",
+      "Feira"
+    ],
+    "Ovo": [
+      1.29,
+      "Un",
+      "Frios"
+    ],
+    "Sabão em pó": [
+      1.08,
+      "Kg",
+      "Limpeza"
+    ]
+  },
+  "Escondidinho": {
+    "Alho": [
+      1.02,
+      "Kg",
+      "Feira"
+    ],
+    "Feijão": [
+      0.26,
+      "Kg",
+      "Feira"
+    ],
+    "Pó de café": [
+      2.26,
+      "Kg",
+      "Condimentos"
+    ]
+  },
+  "Carne de Panela": {
+    "Arroz": [
+      1.2,
+      "Kg",
+      "Feira"
+    ],
+    "Cebola": [
+      1.74,
+      "Kg",
+      "Feira"
+    ],
+    "Farinha de trigo": [
+      2.17,
+      "Kg",
+      "Condimentos"
+    ],
+    "Pó de café": [
+      2.08,
+      "Kg",
+      "Condimentos"
+    ]
+  },
+  "Lasanha Simples": {
+    "Açúcar": [
+      0.59,
+      "Kg",
+      "Condimentos"
+    ],
+    "Batata": [
+      0.73,
+      "Kg",
+      "Feira"
+    ],
+    "Farinha de trigo": [
+      0.21,
+      "Kg",
+      "Condimentos"
+    ],
+    "Leite": [
+      1.28,
+      "L",
+      "Frios"
+    ],
+    "Sabão em pó": [
+      0.39,
+      "Kg",
+      "Limpeza"
+    ]
+  }
+}

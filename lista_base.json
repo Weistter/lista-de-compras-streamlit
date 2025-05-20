@@ -1,0 +1,132 @@
+{
+  "Arroz": {
+    "quantidade": 5.0,
+    "unidade": "Pct",
+    "categoria": "Condimentos"
+  },
+  "Feijão": {
+    "quantidade": 2,
+    "unidade": "Kg",
+    "categoria": "Feira"
+  },
+  "Açucar": {
+    "quantidade": 2,
+    "unidade": "Kg",
+    "categoria": "Condimentos"
+  },
+  "Sal": {
+    "quantidade": 0.5,
+    "unidade": "Kg",
+    "categoria": "Condimentos"
+  },
+  "Tempero pronto Sem Gluten": {
+    "quantidade": 0.5,
+    "unidade": "Kg",
+    "categoria": "Condimentos"
+  },
+  "Oleo": {
+    "quantidade": 2,
+    "unidade": "L",
+    "categoria": "Condimentos"
+  },
+  "Pó de café": {
+    "quantidade": 1,
+    "unidade": "Kg",
+    "categoria": "Condimentos"
+  },
+  "Ovo": {
+    "quantidade": 6,
+    "unidade": "Un",
+    "categoria": "Frios"
+  },
+  "Folha de louro": {
+    "quantidade": 0.1,
+    "unidade": "Kg",
+    "categoria": "Condimentos"
+  },
+  "Paprica": {
+    "quantidade": 0.1,
+    "unidade": "Kg",
+    "categoria": "Condimentos"
+  },
+  "Alho": {
+    "quantidade": 0.2,
+    "unidade": "Kg",
+    "categoria": "Condimentos"
+  },
+  "Cebola": {
+    "quantidade": 0.3,
+    "unidade": "Kg",
+    "categoria": "Feira"
+  },
+  "Limão": {
+    "quantidade": 0.3,
+    "unidade": "Kg",
+    "categoria": "Feira"
+  },
+  "Batata": {
+    "quantidade": 0,
+    "unidade": "Kg",
+    "categoria": "Feira"
+  },
+  "Cheiro verde": {
+    "quantidade": 0,
+    "unidade": "Kg",
+    "categoria": "Feira"
+  },
+  "Sabão em pó": {
+    "quantidade": 2,
+    "unidade": "Kg",
+    "categoria": "Limpeza"
+  },
+  "Amaciante": {
+    "quantidade": 1,
+    "unidade": "L",
+    "categoria": "Limpeza"
+  },
+  "Sabão barra": {
+    "quantidade": 2,
+    "unidade": "Un",
+    "categoria": "Limpeza"
+  },
+  "Sabonete líquido": {
+    "quantidade": 0.5,
+    "unidade": "L",
+    "categoria": "Limpeza"
+  },
+  "Aguá sanitária com cloro": {
+    "quantidade": 2,
+    "unidade": "L",
+    "categoria": "Limpeza"
+  },
+  "Desinfetante": {
+    "quantidade": 2,
+    "unidade": "L",
+    "categoria": "Limpeza"
+  },
+  "Limpador multiuso (veja/azulim)": {
+    "quantidade": 1,
+    "unidade": "L",
+    "categoria": "Limpeza"
+  },
+  "Álcool": {
+    "quantidade": 0.5,
+    "unidade": "L",
+    "categoria": "Limpeza"
+  },
+  "Saco de lixo": {
+    "quantidade": 15,
+    "unidade": "Un",
+    "categoria": "Limpeza"
+  },
+  "Esponja": {
+    "quantidade": 2,
+    "unidade": "Un",
+    "categoria": "Limpeza"
+  },
+  "Palha de aço (bombril / açolã)": {
+    "quantidade": 1,
+    "unidade": "Un",
+    "categoria": "Limpeza"
+  }
+}
