@@ -71,12 +71,12 @@ for item in sorted(itens_unicos):
         or next((receitas[n].get(item, [None, None])[1] for n in st.session_state.receitas_selecionadas if item in receitas[n]), "")
     )
     st.session_state.estoque_usuario[item] = st.number_input(
-        f"{item} ({unidade})",
-        min_value=0.0,
-        step=0.1,
-        key=f"estoque_{item}",
-        value=st.session_state.estoque_usuario.get(item, 0.0)
+    f"{item} ({unidade})",
+    min_value=0,
+    step=1,
+    key=f"estoque_{item}"
     )
+    st.session_state.estoque_usuario[item] = st.session_state[f"estoque_{item}"]
 
 # === Adição de item extra manual ===
 st.subheader("➕ Adicionar item extra (manual)")
@@ -85,7 +85,7 @@ with st.form("form_item_extra"):
     with col1:
         nome_extra = st.text_input("Item")
     with col2:
-        qtd_extra = st.number_input("Qtd", min_value=0.0, step=0.1, value=0.0)
+        qtd_extra = st.number_input("Qtd", min_value=0, step=1, value=0)
     with col3:
         un_extra = st.selectbox("Unidade", ["Un", "Pct", "Kg", "L"])
     with col4:
@@ -100,6 +100,7 @@ if adicionar and nome_extra.strip():
         "categoria": cat_extra
     })
     st.success(f"Item '{nome_extra}' adicionado à lista!")
+
 
 # === Gerar lista de compras ===
 if st.button("Gerar lista de compras"):
