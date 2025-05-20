@@ -71,25 +71,53 @@ for item in sorted(itens_unicos):
         or next((receitas[n].get(item, [None, None])[1] for n in st.session_state.receitas_selecionadas if item in receitas[n]), "")
     )
     st.session_state.estoque_usuario[item] = st.number_input(
-    f"{item} ({unidade})",
-    min_value=0,
-    step=1,
-    key=f"estoque_{item}"
-    )
+        f"{item} ({unidade})",
+        min_value=0,
+        step=1,
+        key=f"estoque_{item}"
+        )
     st.session_state.estoque_usuario[item] = st.session_state[f"estoque_{item}"]
 
 # === Adição de item extra manual ===
+# st.subheader("➕ Adicionar item extra (manual)")
+# with st.form("form_item_extra"):
+#     col1, col2, col3, col4 = st.columns([3, 1, 1, 2])
+#     with col1:
+#         nome_extra = st.text_input("Item")
+#     with col2:
+#         qtd_extra = st.number_input("Qtd", min_value=0, step=1, value=0)
+#     with col3:
+#         un_extra = st.selectbox("Unidade", ["Un", "Pct", "Kg", "L"])
+#     with col4:
+#         cat_extra = st.selectbox("Categoria", ["Condimentos", "Açougue", "Frios", "Feira", "Limpeza", "Outros"])
+#     adicionar = st.form_submit_button("Adicionar")
+
+# === Adição de item extra manual ===
 st.subheader("➕ Adicionar item extra (manual)")
+
+st.markdown("""
+    <style>
+    div[data-baseweb="select"] > div {
+        cursor: pointer !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
 with st.form("form_item_extra"):
     col1, col2, col3, col4 = st.columns([3, 1, 1, 2])
+
     with col1:
         nome_extra = st.text_input("Item")
+
     with col2:
-        qtd_extra = st.number_input("Qtd", min_value=0, step=1, value=0)
+        qtd_extra = st.number_input("Qtd", min_value=0, step=1, value=0, format="%d")
+
     with col3:
         un_extra = st.selectbox("Unidade", ["Un", "Pct", "Kg", "L"])
+
     with col4:
         cat_extra = st.selectbox("Categoria", ["Condimentos", "Açougue", "Frios", "Feira", "Limpeza", "Outros"])
+
     adicionar = st.form_submit_button("Adicionar")
 
 if adicionar and nome_extra.strip():
